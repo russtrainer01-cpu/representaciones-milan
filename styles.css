@@ -138,3 +138,13 @@ button.row{min-height:56px}
   html{zoom:1.45}
   #app{max-width:1000px}
 }
+
+/* Prístina (azul agua) */
+body.pri{--red:#0E8FA8;--dark:#0A6E84;--pink:#E1F5F9;--bg:#F1FBFD;--line:#C9E4EA;--mu:#4f6a70}
+.pri-go{display:flex;align-items:center;gap:10px;width:100%;background:#E1F5F9;color:#0A6E84;border:1.5px solid #9BD3DF;border-radius:14px;padding:12px 14px;font-weight:700;font-size:16px;margin-bottom:10px;min-height:50px}
+.pri-go i{font-size:24px}.pri-go.alm{background:#FBE9E7;color:#8F1D21;border-color:#E6B8B3}
+.tile.agua{background:#E1F5F9;color:#0A6E84}.tile.agua i{color:#0E8FA8}
+.cist{background:linear-gradient(160deg,#0E8FA8,#0A6E84);color:#fff;border-radius:18px;padding:16px;margin-bottom:10px}
+.cist .l{font-size:14px;opacity:.92;display:flex;gap:6px;align-items:center}.cist .v{font-size:40px;font-weight:700;line-height:1.1;margin-top:4px}.cist .v small{font-size:18px;font-weight:600}
+.cist .m{font-size:13px;opacity:.95;margin-top:2px}.cist.lo{background:linear-gradient(160deg,#C98200,#8a4b00)}.cist.no{background:linear-gradient(160deg,#C62828,#8F1D21)}
+.cist+.dos{margin-bottom:12px}
