@@ -148,3 +148,36 @@ body.pri{--red:#0E8FA8;--dark:#0A6E84;--pink:#E1F5F9;--bg:#F1FBFD;--line:#C9E4EA
 .cist .l{font-size:14px;opacity:.92;display:flex;gap:6px;align-items:center}.cist .v{font-size:40px;font-weight:700;line-height:1.1;margin-top:4px}.cist .v small{font-size:18px;font-weight:600}
 .cist .m{font-size:13px;opacity:.95;margin-top:2px}.cist.lo{background:linear-gradient(160deg,#C98200,#8a4b00)}.cist.no{background:linear-gradient(160deg,#C62828,#8F1D21)}
 .cist+.dos{margin-bottom:12px}
+
+/* botón flotante cobrar */
+.fab-wrap{position:fixed;left:0;right:0;bottom:18px;z-index:30;pointer-events:none}
+.fab-in{max-width:520px;margin:0 auto;padding:0 16px;display:flex;justify-content:flex-end}
+.fab{pointer-events:auto;background:#2E7D32;color:#fff;border-radius:44px;height:74px;padding:0 26px 0 20px;display:flex;align-items:center;gap:12px;box-shadow:0 8px 22px rgba(27,94,32,.5);animation:subefab .18s ease-out}
+.fab:active{filter:brightness(.92);transform:scale(.97)}
+.fab .fi{position:relative;font-size:32px;display:flex}.fab .bd{position:absolute;top:-10px;right:-14px;background:#fff;color:#2E7D32;border:2px solid #2E7D32;border-radius:13px;min-width:26px;height:26px;font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:center;font-style:normal}
+.fab .ft{display:flex;flex-direction:column;line-height:1.1;margin-left:6px}.fab .ft small{font-size:13px;opacity:.95}.fab .ft b{font-size:23px}
+@keyframes subefab{from{transform:translateY(12px);opacity:0}to{transform:none;opacity:1}}
+@media (min-width:900px){.fab-in{max-width:980px}}
+/* más vendidos e íconos */
+.lbl.s{font-size:13px;color:var(--mu);font-weight:600;margin:6px 2px}
+.favs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:10px}
+.fv{background:#fff;border:1px solid var(--line);border-radius:14px;padding:9px 3px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:1px;font-size:12px;min-width:0}
+.fv i{font-size:28px;color:var(--red)}.fv span{font-weight:600;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.fv small{color:var(--mu);font-size:11px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.fv b{font-size:14px}.fv:active{background:var(--pink)}
+.prod-h .pn{display:flex;align-items:center;gap:8px}.prod-h .pn i{font-size:24px;color:var(--red)}
+/* cobro: resumen y vuelto */
+.resumen{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;background:var(--pink);border-radius:12px;padding:10px 12px;margin-bottom:8px;font-size:14px}
+.resumen .rl{display:flex;flex-direction:column;gap:2px}.resumen small{color:var(--mu)}
+.vue{margin-top:8px}.bls{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 8px}
+.bl{background:var(--pink);color:var(--dark);border-radius:10px;padding:10px 14px;font-weight:700;font-size:15px;min-height:44px}.bl.on{background:var(--red);color:#fff}
+.vuelto:empty{display:none}.vuelto{background:var(--okbg);color:#1B5E20;border-radius:12px;padding:10px 12px;margin-top:8px;display:flex;justify-content:space-between;align-items:center;font-size:15px}.vuelto b{font-size:24px}.vuelto .falta{color:var(--no);font-weight:700}
+/* guía */
+.guia{text-align:center;padding:4px 2px 2px}.guia .gi{width:72px;height:72px;border-radius:50%;background:var(--pink);color:var(--red);font-size:38px;display:flex;align-items:center;justify-content:center;margin:6px auto 10px}
+.guia .gp{font-size:13px;color:var(--mu);font-weight:600}.guia h3{margin:4px 0 8px}.guia p{font-size:16px;line-height:1.45;color:var(--ink)}
+.gpts{display:flex;gap:8px;justify-content:center;margin:14px 0 6px}.gpts span{width:10px;height:10px;border-radius:50%;background:var(--line)}.gpts span.on{background:var(--red);width:26px;border-radius:6px}
+/* inicio de Rosa: avisos */
+.alertas{display:flex;flex-direction:column;gap:8px;margin-bottom:12px}
+.alerta{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:12px 14px;text-align:left;width:100%}
+.alerta .ai{width:44px;height:44px;border-radius:12px;background:var(--pink);color:var(--red);font-size:24px;display:flex;align-items:center;justify-content:center;flex:none}
+.alerta .at{flex:1;min-width:0;display:flex;flex-direction:column}.alerta .at b{font-size:16px}.alerta .at small{color:var(--mu);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.alerta>i{color:var(--mu);font-size:20px}
+.alerta.urgente{border:2px solid var(--red);background:#fff}.alerta.urgente .ai{background:var(--red);color:#fff}
