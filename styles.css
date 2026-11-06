@@ -250,3 +250,6 @@ html:has(body.soc){zoom:1 !important}
 .sc-cmp{flex-wrap:wrap;gap:6px}
 .sc-card.acc{flex:1}
 @media (min-width:1500px){.sc-main{max-width:1400px}}
+
+.sc-sm{font-size:12px;color:var(--sc-mu);margin-top:10px;line-height:1.4}
+.sc-row .sc-card .v{font-size:27px}
