@@ -273,3 +273,26 @@ html:has(body.soc){zoom:1 !important}
 .row.pr{align-items:flex-start}.row.pr .pcells{display:flex;flex-direction:column;gap:8px;flex:none}.pcell{display:flex;align-items:center;gap:6px}.pcell .pi{width:96px;text-align:center;font-weight:700;margin:0}.pcell span{font-size:13px;color:var(--mu,#6b7280);min-width:62px}
 .fcli{width:100%;text-align:left;background:none;border:0}.debe{color:var(--no)}.abono{color:var(--ok)}
 .opt.sel{background:var(--ok);color:#fff}
+
+/* ===== estilo azul noche (panel de Rosa) ===== */
+body.rosa{--red:#0B1B33;--dark:#16305A;--pink:#E3E8F1;--bg:#EEF1F6;--ink:#0B1B33;--mu:#4A5B78;--line:#DCE2EC;--acc:#C62828}
+body.rosa .top{border-bottom:3px solid var(--acc)}
+body.rosa .top .tt .t{font-family:Georgia,'Times New Roman',serif;letter-spacing:.3px}
+body.rosa .fx{background:#16305A}
+body.rosa .big{background:linear-gradient(135deg,#0B1B33,#16305A);border-bottom:4px solid var(--acc);border-radius:16px}
+body.rosa .big .l{text-transform:uppercase;letter-spacing:1.2px;font-size:12px;color:#9FB0CC;opacity:1}
+body.rosa .big .v{font-family:Georgia,'Times New Roman',serif}
+body.rosa .big .m{color:#C9D4E8;opacity:1}
+body.rosa .card{box-shadow:0 2px 8px rgba(11,27,51,.08)}
+body.rosa .tile{background:#fff;border:1px solid var(--line);border-top:3px solid #0B1B33;color:#0B1B33}
+body.rosa .tile i{color:#0B1B33}
+body.rosa .tile.rojo{background:#C62828;border-color:#C62828;border-top-color:#8E1B1B;color:#fff}body.rosa .tile.rojo i{color:#fff}
+body.rosa .tile.agua{background:#E1F5F9;color:#0A6E84;border-color:#C9E4EA;border-top-color:#0E8FA8}body.rosa .tile.agua i{color:#0E8FA8}
+body.rosa .alerta.urgente{border-color:#C62828}body.rosa .alerta.urgente .ai{background:#C62828}
+body.rosa .alerta .ai{color:#0B1B33}
+body.rosa h3,body.rosa h2,body.rosa .sec-h b{font-family:Georgia,'Times New Roman',serif}
+body.rosa .sec-h b{color:#0B1B33}
+body.rosa .gr h4{margin:0 0 10px;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#4A5B78}
+.gr{margin-top:12px}.rr{display:flex;justify-content:space-between;gap:10px;font-size:15px;padding:8px 0;border-bottom:1px solid #E6EAF1}.rr:last-child{border:0}
+.dona{display:flex;align-items:center;gap:16px}.leyenda{font-size:14px;line-height:1.9}.leyenda i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:8px}
+.chips{display:flex;gap:8px;margin:4px 0 12px;overflow-x:auto}
