@@ -266,3 +266,6 @@ html:has(body.soc){zoom:1 !important}
 .sc-tile .qr{display:flex;align-items:center;gap:6px;margin-top:8px}
 .sc-tile .qi{width:100%;min-width:0;text-align:center;font:inherit;font-weight:600;padding:6px 4px;border:1px solid #cfd6e2;border-radius:6px;background:#fff;color:inherit}
 .sc-tile .qr .mn{position:static;transform:none;flex:none;bottom:auto;left:auto}
+
+.row.cnt .ci-w{display:flex;align-items:center;gap:6px;flex:none}.row.cnt .ci{width:92px;text-align:center;font-weight:700;margin:0}.row.cnt .ci-w span{font-size:13px;color:var(--mu,#6b7280);min-width:22px}
+.barra-b.g2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
