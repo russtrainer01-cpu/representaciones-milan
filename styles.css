@@ -269,3 +269,5 @@ html:has(body.soc){zoom:1 !important}
 
 .row.cnt .ci-w{display:flex;align-items:center;gap:6px;flex:none}.row.cnt .ci{width:92px;text-align:center;font-weight:700;margin:0}.row.cnt .ci-w span{font-size:13px;color:var(--mu,#6b7280);min-width:22px}
 .barra-b.g2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+
+.row.pr{align-items:flex-start}.row.pr .pcells{display:flex;flex-direction:column;gap:8px;flex:none}.pcell{display:flex;align-items:center;gap:6px}.pcell .pi{width:96px;text-align:center;font-weight:700;margin:0}.pcell span{font-size:13px;color:var(--mu,#6b7280);min-width:62px}
