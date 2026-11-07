@@ -296,3 +296,21 @@ body.rosa .gr h4{margin:0 0 10px;font-size:12px;letter-spacing:1px;text-transfor
 .gr{margin-top:12px}.rr{display:flex;justify-content:space-between;gap:10px;font-size:15px;padding:8px 0;border-bottom:1px solid #E6EAF1}.rr:last-child{border:0}
 .dona{display:flex;align-items:center;gap:16px}.leyenda{font-size:14px;line-height:1.9}.leyenda i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:8px}
 .chips{display:flex;gap:8px;margin:4px 0 12px;overflow-x:auto}
+
+/* ===== pantalla de entrada: vino con brillo ===== */
+.login{background:radial-gradient(ellipse at 50% 18%,#A82330 0%,#5A1020 48%,#1E0409 100%);color:#fff;min-height:100vh}
+.login-hd{background:none;padding:34px 16px 6px}
+.login-hd .placa{background:#F8F4EB;border-radius:22px;max-width:330px;margin:0 auto;padding:8px;box-shadow:0 0 44px rgba(224,72,72,.45),0 8px 24px rgba(0,0,0,.35)}
+.login-hd .placa img{width:100%;display:block;border-radius:14px}.login .uitem:focus{outline:none}
+.login-hd p{font-size:15px;color:#F8DADC;margin-top:16px;letter-spacing:.5px}
+.login .vidrio{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.22);border-radius:22px;padding:16px 10px 12px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);max-width:420px;margin:0 auto}
+.login .users{grid-template-columns:repeat(3,1fr);gap:12px 4px}
+.login .uitem{color:#fff}
+.login .uav{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.35);color:#fff;font-family:Georgia,'Times New Roman',serif}
+.login .uitem.own .uav{background:linear-gradient(135deg,#E04848,#8E1B24);border-color:transparent;box-shadow:0 0 16px rgba(224,72,72,.55)}
+.login .uitem.sel .uav{background:#fff;color:#8E1B24;box-shadow:0 0 0 3px #5A1020,0 0 0 5px #fff}
+.login .pinhi{color:#F8DADC}
+.login .dot{border-color:#F3C9CC}.login .dot.on{background:#fff;border-color:#fff}
+.login .perr{color:#FFC1C1}
+.login .key{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.22)}.login .key:active{background:rgba(255,255,255,.3)}
+.login .cargando,.login .vacio{color:#F8DADC}
