@@ -1,4 +1,4 @@
-const V = 'almacen-20261107160549';
+const V = 'almacen-20261107161019';
 const SHELL = ['./', './index.html', './app.js', './styles.css', './manifest.webmanifest', './icons/icon-192.png', './assets/logo.jpg', './assets/marca.png', './assets/tabler-icons-outline.css', './assets/fonts/tabler-icons-outline.woff2'];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(V).then((c) => c.addAll(SHELL.map((u) => new Request(u, { cache: 'reload' })))).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== V).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
