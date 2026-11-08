@@ -329,3 +329,4 @@ body.pri .btn{background:var(--dark);border-bottom:0}
 h3,h2{font-family:Georgia,'Times New Roman',serif}
 .fx{background:rgba(255,255,255,.16)}
 .stp .qt{margin-left:6px;color:var(--no);background:var(--pink);border-radius:10px}
+.opt.sel{background:var(--red)}
