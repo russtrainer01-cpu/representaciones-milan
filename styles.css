@@ -330,3 +330,6 @@ h3,h2{font-family:Georgia,'Times New Roman',serif}
 .fx{background:rgba(255,255,255,.16)}
 .stp .qt{margin-left:6px;color:var(--no);background:var(--pink);border-radius:10px}
 .opt.sel{background:var(--red)}
+
+.sc-falt{margin-top:18px;background:#fdf0dc;border:1.5px solid #f0d9a8;border-radius:14px;padding:14px 18px}.sc-falt .ft b{display:block;color:#a8691a;font-size:16px}.sc-falt .ft span{color:#7a5a25;font-size:13px}.sc-falt .fc{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.sc-falt .sc-chip{padding:6px 14px;font-size:14px;border-color:#e6c98a}
+.sc-falt .sc-lnk{display:block;margin-top:8px;background:none;border:0;padding:0;color:#a8691a;font-size:13px;font-weight:600;text-decoration:underline;cursor:pointer}
