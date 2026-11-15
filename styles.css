@@ -333,3 +333,13 @@ h3,h2{font-family:Georgia,'Times New Roman',serif}
 
 .sc-falt{margin-top:18px;background:#fdf0dc;border:1.5px solid #f0d9a8;border-radius:14px;padding:14px 18px}.sc-falt .ft b{display:block;color:#a8691a;font-size:16px}.sc-falt .ft span{color:#7a5a25;font-size:13px}.sc-falt .fc{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.sc-falt .sc-chip{padding:6px 14px;font-size:14px;border-color:#e6c98a}
 .sc-falt .sc-lnk{display:block;margin-top:8px;background:none;border:0;padding:0;color:#a8691a;font-size:13px;font-weight:600;text-decoration:underline;cursor:pointer}
+
+/* Impresiones (morado) */
+body.imp{--hd:linear-gradient(135deg,#5A2D82,#7B45A8);--hdl:#5A2D82;--card:#fff;--ink:#2B1B1B;--red:#7B45A8;--dark:#5A2D82;--pink:#EFE7F8;--bg:#F7F2FB;--line:#DCCDEB;--mu:#6B5B80}
+.pri-go.imp{background:#EFE7F8;color:#5A2D82;border-color:#CDB8E3}
+.goes{display:flex;gap:8px;margin-bottom:10px}
+.goes .pri-go{flex:1;margin-bottom:0;font-size:14px;padding:8px 6px;min-height:56px;flex-direction:column;justify-content:center;gap:2px;text-align:center}
+.goes .pri-go i{font-size:22px}
+body.imp .tile{background:var(--pink);border:0;color:var(--dark)}body.imp .tile i{color:var(--red)}body.imp .tile.rojo{background:linear-gradient(135deg,#7B45A8,#4A2370);color:#fff;box-shadow:0 6px 14px rgba(74,35,112,.3)}body.imp .tile.rojo i{color:#fff}
+body.imp .btn{background:linear-gradient(135deg,#6A38A0,#4A2370);border-bottom:0}body.imp .btn.sec{background:var(--pink);color:var(--dark)}
+body.imp .big{background:linear-gradient(160deg,#7B45A8,#4A2370);border-bottom:0}
