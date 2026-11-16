@@ -345,3 +345,5 @@ body.imp .btn{background:linear-gradient(135deg,#6A38A0,#4A2370);border-bottom:0
 body.imp .big{background:linear-gradient(160deg,#7B45A8,#4A2370);border-bottom:0}
 
 .equiv.grande{font-size:20px;color:var(--red);margin:6px 0 10px;font-weight:500}.equiv.grande b{font-weight:800;font-size:24px}
+
+.detv{margin-top:4px;font-size:13px;color:#333;line-height:1.45}.detv .mu{margin-top:2px}
