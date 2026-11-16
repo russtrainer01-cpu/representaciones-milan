@@ -343,3 +343,5 @@ body.imp{--hd:linear-gradient(135deg,#5A2D82,#7B45A8);--hdl:#5A2D82;--card:#fff;
 body.imp .tile{background:var(--pink);border:0;color:var(--dark)}body.imp .tile i{color:var(--red)}body.imp .tile.rojo{background:linear-gradient(135deg,#7B45A8,#4A2370);color:#fff;box-shadow:0 6px 14px rgba(74,35,112,.3)}body.imp .tile.rojo i{color:#fff}
 body.imp .btn{background:linear-gradient(135deg,#6A38A0,#4A2370);border-bottom:0}body.imp .btn.sec{background:var(--pink);color:var(--dark)}
 body.imp .big{background:linear-gradient(160deg,#7B45A8,#4A2370);border-bottom:0}
+
+.equiv.grande{font-size:20px;color:var(--red);margin:6px 0 10px;font-weight:500}.equiv.grande b{font-weight:800;font-size:24px}
