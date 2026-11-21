@@ -353,3 +353,13 @@ body.imp .big{background:linear-gradient(160deg,#7B45A8,#4A2370);border-bottom:0
 .vd{align-items:flex-start;gap:12px}.vd .vg{flex:1;min-width:0}.vd .r{text-align:right;flex:none}.vdd{background:#faf5f3;border-radius:10px;padding:4px 12px;margin:0 0 8px}.vdd .sc-t span{min-width:0}
 
 .rc-h{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px}.rc-t{font-size:19px}
+
+/* cedulas de fiados */
+.warnc{background:#fff3d6;border:1.5px solid #e5b84a;border-radius:14px;padding:12px;margin:10px 0;color:#5a4000;font-size:15px}
+.warnc .btn2,.warnc .link{display:block;margin-top:8px}
+.okc{background:#e3f4e6;border:1.5px solid #8cc99a;border-radius:12px;padding:8px 12px;margin:8px 0;color:#1d5a2b;font-size:14px}
+.chk{display:flex;gap:8px;align-items:center;margin:10px 0;font-size:15px}
+.chk input{width:20px;height:20px}
+.pb2{height:10px;border-radius:6px;background:#eadada;margin:4px 0 12px;overflow:hidden}.pb2 i{display:block;height:10px;background:#7b1e2b}
+.cedr{gap:8px}.ced-i{width:140px;flex:0 0 140px;padding:9px 10px;font-size:15px}
+.cedln{margin:2px 0 10px;color:#6b5a5a;font-size:14px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
